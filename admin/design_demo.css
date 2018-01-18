@@ -1,0 +1,22 @@
+.aside {
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+    height: 500px;
+}
+#footer {
+    background-color: black;
+    clear: both;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+#page-wrapper {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.top-nav {
+    margin-top: 10px;
+}

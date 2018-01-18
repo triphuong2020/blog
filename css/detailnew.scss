@@ -1,0 +1,36 @@
+.detail{
+	float:right;
+	width: 900px;
+	margin-right: 100px;
+	background: #fff;
+	padding: 15px 10px;
+	margin-bottom: 25px;
+	h1{
+		font-size: 32px;
+		color: red;
+		margin: 5px 0 15px 0;
+		text-align: center;
+	}
+	h3{
+		float: right;
+		font-size: 15px;
+		color: red;
+	}
+	img{
+		width: 300px;
+		height: auto;
+		max-height: 450px;
+		margin: 20px 0;
+	}
+	.text-content{
+		font-size:14px;
+		line-height:2em;
+		margin-left:20px;
+		&::first-letter{
+			font-size: 30px;
+			margin-left: 50px;
+
+		}
+	}
+
+}

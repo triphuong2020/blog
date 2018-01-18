@@ -1,0 +1,46 @@
+.news{
+	background: linear-gradient(#39706d,#c3e5e3) ;
+	width: 900px;
+	height: auto;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	.eachnew{
+		background: #fff;
+		width: 90%;
+		height:200px;
+		border-radius: 15px;
+		margin-bottom: 20px;
+		margin-left: 45px;
+		padding-top: 15px;
+		line-height: 1.5em;
+		.new-width{
+			width: 100%;
+			.title{
+				margin: 5px 0 10px 0;
+				font-size: 20px;
+				h1{
+					font-weight:bold;
+					color: red;
+					span{
+						float: right;
+					} 
+				}
+			}
+			.text-content{
+				font-size:13px;
+			}
+		}
+	}
+	.eachnew:first-child{
+		margin-top: 20px;
+	}
+}
+.pag{
+	width:100%;
+	vertical-align:middle;
+	li{
+		display: inline-block;
+	}
+
+}
